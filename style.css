@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    justify-content: center;
+}
+
+section{
+    flex: 1;
+    padding: 2em;
+}
+
+
+
+.imageContainer{
+    padding: .3em;
+    border-radius: 1em;
+    /* background: #eeb263; */
+}
+
+img{
+    height: 55vh;
+    object-fit: contain;
+    border-radius: 1em;
+    width: 100%;
+}
+
+.about{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 2em;
+    flex-direction: column;
+    height: 50%;
+}
+
+.title{
+    font-size: 2em;
+    font-family: sans-serif;
+    color: #eeb263;
+    font-weight: 700;
+}
+
+.about p {
+    margin-top: 1em;
+    line-height: 1.6em;
+    letter-spacing: 1px;
+}
+
+
+.firstContainer h1{
+    background-color: #eeb263;
+    padding: .4em;
+    color: #fff;
+    font-size: 2em;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 3px;
+}
+
+.firstContainer p{
+    margin-top: 1em;
+    color: #000;
+    font-size: 2.5em;
+}
+
+
+.firstContainer span{
+    color: #849899;
+}
+
+.track{
+    font-size: 1.5em;
+    color: #849899;
+    font-weight: 900;
+    letter-spacing: 1px;
+    font-family: serif;
+}
+
+.sectionTwo{
+    gap: 1em;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column; 
+    padding: 5em;
+}
+
+.secondCon{
+    display: flex;
+    width: 100%;
+}
+
+.date{
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+#dayEl{
+    font-size: 1em;
+    color: #eeb263;
+}
+#timeEl{
+    font-size: 1em;
+    color: #eeb263;
+}
+
+.btn{
+    margin-top: 1em;
+    text-decoration: none;
+    padding: 1em;
+    background-color: #eeb263;
+    color: white;
+    border-radius: 1em;
+}
